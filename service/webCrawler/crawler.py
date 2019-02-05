@@ -44,9 +44,9 @@ def printDatePrice(url):
 
     sortList = sorted(targetList ,key=lambda x : x._date ,reverse=False)
 
-    for content in sortList:
-        print("date:"+content._date+" price:"+content._price)
-
+    return sortList
 
 # if __name__ == '__main__':
-#     printDatePrice('http://www.stockq.org/funds/fund/jf/J226.php')
+#     list = printDatePrice('http://www.stockq.org/funds/fund/jf/J226.php')
+#     for element in list:
+#         print("data:"+ element._date)
