@@ -11,21 +11,25 @@
 ### 三、程式架構
 ```
 autoInsertAccess
+│   
+└───controller
+│   │
+│   └── Main.py
 │
 └───model
 │   │   
 │   └── Price.py
 │   
-└───controller
+└───service
 │   │
-│   └──Access
+│   └──access
 │   │   │ 
 │   │   └── insertAccess.py  
 │   │
-│   └──WebCrawler
+│   └──webCrawler
 │       │ 
 │       └── crawler.py
-│ 
+│
 └───README.md
 │
 └───requirements.txt 
