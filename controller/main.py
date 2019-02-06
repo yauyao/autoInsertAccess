@@ -1,3 +1,5 @@
+import sys
+sys.path.append("D:\Code\Python_Code\AutoInsertAccess") #用於cmd可以有效import其它project
 from service.access.insertAccess import connectAccess,executeSql,closeAccess,searchSql
 from service.webCrawler.crawler import printDatePrice
 import datetime
